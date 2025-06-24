@@ -1,0 +1,2947 @@
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "First declaration of conformity"},
+            {"value": "The device first CE marked"},
+            {"value": "First placed on the market"},
+            {"value": "First put into service"},
+            {"value": "If software, date first made available"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "marketDateTypeT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "EMDN"},
+            {"value": "GMDN"},
+            {"value": "UMDNS(ECRI)"},
+            {"value": "GIVD/EDMS"},
+            {"value": "Other"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "nomenclatureSystemT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": {"value": "This device has been placed on the market before the implementation of the MDD/AIMDD/IVDD"},
+          "base": "xsd:string"
+        },
+        "name": "deviceClassT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "active implant"},
+            {"value": "class III"},
+            {"value": "class IIb"},
+            {"value": "class IIa"},
+            {"value": "class I"},
+            {"value": "class Is"},
+            {"value": "class Im"},
+            {"value": "class Ism"},
+            {"value": "custom-made"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "deviceClassMDDT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "IVD Annex II List A"},
+            {"value": "IVD Annex II List B"},
+            {"value": "IVD devices for self-testing"},
+            {"value": "IVD general"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "deviceClassIVDDT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "class III"},
+            {"value": "class IIb"},
+            {"value": "class IIa"},
+            {"value": "class I"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "deviceClassMDRT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "class D"},
+            {"value": "class C"},
+            {"value": "class B"},
+            {"value": "class A"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "deviceClassIVDRT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Healthcare facility/carer"},
+            {"value": "Patient/user"},
+            {"value": "In transit to manufacturer"},
+            {"value": "Manufacturer"},
+            {"value": "Distributor"},
+            {"value": "Discarded"},
+            {"value": "Remains implanted"},
+            {"value": "Unknown"},
+            {"value": "Other"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "currentDeviceLocationT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Healthcare professional"},
+            {"value": "Patient/lay user"},
+            {"value": "Other"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "deviceOperatorAtEventT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Initial use"},
+            {"value": "Reuse of a reusable medical device"},
+            {"value": "Reuse of a single use medical device"},
+            {"value": "Re-serviced/refurbished/fully refurbished"},
+            {"value": "Problem noted prior use"},
+            {"value": "Other"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "deviceUsageT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Male"},
+            {"value": "Female"},
+            {"value": "Other"},
+            {"value": "Unknown"},
+            {"value": "Not applicable"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "GenderT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Healthcare professional"},
+            {"value": "Patient"},
+            {"value": "Lay user"},
+            {"value": "Other"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "initialReporterRoleT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Model"},
+            {"value": "Software"},
+            {"value": "Lot/Batch"},
+            {"value": "Product platform"},
+            {"value": "Other"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "similarVariantT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Devices placed on the market or put into service"},
+            {"value": "Units distributed within each time period"},
+            {"value": "Number of tests performed"},
+            {"value": "Number of episodes of use (for reusable devices)"},
+            {"value": "Active installed base"},
+            {"value": "Units distributed from the date of declaration of Conformity/CE mark approval to the end date of each time period"},
+            {"value": "Number of devices implanted"},
+            {"value": "Other"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "numberBasedOnT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": {"value": "Applicable legislation unknown"},
+          "base": "xsd:string"
+        },
+        "name": "AppLegislationUnknownT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 3},
+          "xsd:maxLength": {"value": 7},
+          "base": "xsd:string"
+        },
+        "name": "codeStringT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 3},
+          "xsd:maxLength": {"value": 8},
+          "base": "xsd:string"
+        },
+        "name": "codeString8charT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 1},
+          "xsd:maxLength": {"value": 50},
+          "base": "xsd:string"
+        },
+        "name": "nonEmptyString50T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 1},
+          "xsd:maxLength": {"value": 200},
+          "base": "xsd:string"
+        },
+        "name": "nonEmptyString200T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 1},
+          "xsd:maxLength": {"value": 300},
+          "base": "xsd:string"
+        },
+        "name": "nonEmptyString300T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 1},
+          "xsd:maxLength": {"value": 1000},
+          "base": "xsd:string"
+        },
+        "name": "nonEmptyString1000T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 1},
+          "xsd:maxLength": {"value": 2000},
+          "base": "xsd:string"
+        },
+        "name": "nonEmptyString2000T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:minLength": {"value": 1},
+          "base": "xsd:string"
+        },
+        "name": "nonEmptyStringT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 50},
+          "base": "xsd:string"
+        },
+        "name": "string50T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 80},
+          "base": "xsd:string"
+        },
+        "name": "string80T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 200},
+          "base": "xsd:string"
+        },
+        "name": "string200T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 255},
+          "base": "xsd:string"
+        },
+        "name": "string255T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 300},
+          "base": "xsd:string"
+        },
+        "name": "string300T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 1000},
+          "base": "xsd:string"
+        },
+        "name": "string1000T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 2000},
+          "base": "xsd:string"
+        },
+        "name": "string2000T"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxLength": {"value": 4000},
+          "base": "xsd:string"
+        },
+        "name": "string4000T"
+      },
+      {
+        "xsd:restriction": {"base": "xsd:string"},
+        "name": "stringT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Yes"},
+            {"value": "No"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "yesNoT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "Yes"},
+            {"value": "No"},
+            {"value": ""}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "yesNoEmptyT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "AT"},
+            {"value": "BE"},
+            {"value": "BG"},
+            {"value": "CH"},
+            {"value": "CY"},
+            {"value": "CZ"},
+            {"value": "DE"},
+            {"value": "DK"},
+            {"value": "EE"},
+            {"value": "ES"},
+            {"value": "FI"},
+            {"value": "FR"},
+            {"value": "GB"},
+            {"value": "GR"},
+            {"value": "HR"},
+            {"value": "HU"},
+            {"value": "IE"},
+            {"value": "IS"},
+            {"value": "IT"},
+            {"value": "LI"},
+            {"value": "LT"},
+            {"value": "LU"},
+            {"value": "LV"},
+            {"value": "MT"},
+            {"value": "NL"},
+            {"value": "NO"},
+            {"value": "PL"},
+            {"value": "PT"},
+            {"value": "RO"},
+            {"value": "SE"},
+            {"value": "SI"},
+            {"value": "SK"},
+            {"value": "TR"},
+            {"value": "XI"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "distributionEEAT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": {"value": "All EEA, Turkey and Nothern Ireland"},
+          "base": "xsd:string"
+        },
+        "name": "distribution_allT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxInclusive": {"value": 2050},
+          "xsd:minInclusive": {"value": 1900},
+          "base": "xsd:integer"
+        },
+        "name": "validYearsT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:maxInclusive": {"value": 12},
+          "xsd:minInclusive": {"value": 1},
+          "base": "xsd:integer"
+        },
+        "name": "validMonthsT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "ab"},
+            {"value": "aa"},
+            {"value": "af"},
+            {"value": "ak"},
+            {"value": "sq"},
+            {"value": "am"},
+            {"value": "ar"},
+            {"value": "an"},
+            {"value": "hy"},
+            {"value": "as"},
+            {"value": "av"},
+            {"value": "ae"},
+            {"value": "ay"},
+            {"value": "az"},
+            {"value": "bm"},
+            {"value": "ba"},
+            {"value": "eu"},
+            {"value": "be"},
+            {"value": "bn"},
+            {"value": "bh"},
+            {"value": "bi"},
+            {"value": "bs"},
+            {"value": "br"},
+            {"value": "bg"},
+            {"value": "my"},
+            {"value": "ca"},
+            {"value": "ch"},
+            {"value": "ce"},
+            {"value": "ny"},
+            {"value": "zh"},
+            {"value": "cv"},
+            {"value": "kw"},
+            {"value": "co"},
+            {"value": "cr"},
+            {"value": "hr"},
+            {"value": "cs"},
+            {"value": "da"},
+            {"value": "dv"},
+            {"value": "nl"},
+            {"value": "dz"},
+            {"value": "en"},
+            {"value": "eo"},
+            {"value": "et"},
+            {"value": "ee"},
+            {"value": "fo"},
+            {"value": "fj"},
+            {"value": "fi"},
+            {"value": "fr"},
+            {"value": "ff"},
+            {"value": "gl"},
+            {"value": "gd"},
+            {"value": "gv"},
+            {"value": "ka"},
+            {"value": "de"},
+            {"value": "el"},
+            {"value": "kl"},
+            {"value": "gn"},
+            {"value": "gu"},
+            {"value": "ht"},
+            {"value": "ha"},
+            {"value": "he"},
+            {"value": "hz"},
+            {"value": "hi"},
+            {"value": "ho"},
+            {"value": "hu"},
+            {"value": "is"},
+            {"value": "io"},
+            {"value": "ig"},
+            {"value": "ia"},
+            {"value": "ie"},
+            {"value": "iu"},
+            {"value": "ik"},
+            {"value": "ga"},
+            {"value": "it"},
+            {"value": "ja"},
+            {"value": "jv"},
+            {"value": "kl"},
+            {"value": "kn"},
+            {"value": "kr"},
+            {"value": "ks"},
+            {"value": "kk"},
+            {"value": "km"},
+            {"value": "ki"},
+            {"value": "rw"},
+            {"value": "rn"},
+            {"value": "ky"},
+            {"value": "kv"},
+            {"value": "kg"},
+            {"value": "ko"},
+            {"value": "ku"},
+            {"value": "kj"},
+            {"value": "lo"},
+            {"value": "la"},
+            {"value": "lv"},
+            {"value": "li"},
+            {"value": "ln"},
+            {"value": "lt"},
+            {"value": "lu"},
+            {"value": "lg"},
+            {"value": "lb"},
+            {"value": "gv"},
+            {"value": "mk"},
+            {"value": "mg"},
+            {"value": "ms"},
+            {"value": "ml"},
+            {"value": "mt"},
+            {"value": "mi"},
+            {"value": "mr"},
+            {"value": "mh"},
+            {"value": "mo"},
+            {"value": "mn"},
+            {"value": "na"},
+            {"value": "nv"},
+            {"value": "ng"},
+            {"value": "nd"},
+            {"value": "ne"},
+            {"value": "no"},
+            {"value": "nb"},
+            {"value": "nn"},
+            {"value": "ii"},
+            {"value": "oc"},
+            {"value": "oj"},
+            {"value": "cu"},
+            {"value": "or"},
+            {"value": "om"},
+            {"value": "os"},
+            {"value": "pi"},
+            {"value": "ps"},
+            {"value": "fa"},
+            {"value": "pl"},
+            {"value": "pt"},
+            {"value": "pa"},
+            {"value": "qu"},
+            {"value": "rm"},
+            {"value": "ro"},
+            {"value": "ru"},
+            {"value": "se"},
+            {"value": "sm"},
+            {"value": "sg"},
+            {"value": "sa"},
+            {"value": "sr"},
+            {"value": "sh"},
+            {"value": "st"},
+            {"value": "tn"},
+            {"value": "sn"},
+            {"value": "ii"},
+            {"value": "sd"},
+            {"value": "si"},
+            {"value": "ss"},
+            {"value": "sk"},
+            {"value": "sl"},
+            {"value": "so"},
+            {"value": "nr"},
+            {"value": "es"},
+            {"value": "su"},
+            {"value": "sw"},
+            {"value": "ss"},
+            {"value": "sv"},
+            {"value": "tl"},
+            {"value": "ty"},
+            {"value": "tg"},
+            {"value": "ta"},
+            {"value": "tt"},
+            {"value": "te"},
+            {"value": "th"},
+            {"value": "bo"},
+            {"value": "ti"},
+            {"value": "to"},
+            {"value": "ts"},
+            {"value": "tr"},
+            {"value": "tk"},
+            {"value": "tw"},
+            {"value": "ug"},
+            {"value": "uk"},
+            {"value": "ur"},
+            {"value": "uz"},
+            {"value": "ve"},
+            {"value": "vi"},
+            {"value": "vo"},
+            {"value": "wa"},
+            {"value": "cy"},
+            {"value": "wo"},
+            {"value": "fy"},
+            {"value": "xh"},
+            {"value": "yi"},
+            {"value": "yo"},
+            {"value": "za"},
+            {"value": "zu"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "isoLanguageT"
+      },
+      {
+        "xsd:restriction": {
+          "xsd:enumeration": [
+            {"value": "AF"},
+            {"value": "AX"},
+            {"value": "AL"},
+            {"value": "DZ"},
+            {"value": "AS"},
+            {"value": "AD"},
+            {"value": "AO"},
+            {"value": "AI"},
+            {"value": "AQ"},
+            {"value": "AG"},
+            {"value": "AR"},
+            {"value": "AM"},
+            {"value": "AW"},
+            {"value": "AU"},
+            {"value": "AT"},
+            {"value": "AZ"},
+            {"value": "BS"},
+            {"value": "BH"},
+            {"value": "BD"},
+            {"value": "BB"},
+            {"value": "BY"},
+            {"value": "BE"},
+            {"value": "BZ"},
+            {"value": "BJ"},
+            {"value": "BM"},
+            {"value": "BT"},
+            {"value": "BO"},
+            {"value": "BQ"},
+            {"value": "BA"},
+            {"value": "BW"},
+            {"value": "BV"},
+            {"value": "BR"},
+            {"value": "IO"},
+            {"value": "BN"},
+            {"value": "BG"},
+            {"value": "BF"},
+            {"value": "BI"},
+            {"value": "KH"},
+            {"value": "CM"},
+            {"value": "CA"},
+            {"value": "CV"},
+            {"value": "KY"},
+            {"value": "CF"},
+            {"value": "TD"},
+            {"value": "CL"},
+            {"value": "CN"},
+            {"value": "CX"},
+            {"value": "CC"},
+            {"value": "CO"},
+            {"value": "KM"},
+            {"value": "CG"},
+            {"value": "CD"},
+            {"value": "CK"},
+            {"value": "CR"},
+            {"value": "CI"},
+            {"value": "HR"},
+            {"value": "CU"},
+            {"value": "CW"},
+            {"value": "CY"},
+            {"value": "CZ"},
+            {"value": "DK"},
+            {"value": "DJ"},
+            {"value": "DM"},
+            {"value": "DO"},
+            {"value": "EC"},
+            {"value": "EG"},
+            {"value": "SV"},
+            {"value": "GQ"},
+            {"value": "ER"},
+            {"value": "EE"},
+            {"value": "ET"},
+            {"value": "FK"},
+            {"value": "FO"},
+            {"value": "FJ"},
+            {"value": "FI"},
+            {"value": "FR"},
+            {"value": "GF"},
+            {"value": "PF"},
+            {"value": "TF"},
+            {"value": "GA"},
+            {"value": "GM"},
+            {"value": "GE"},
+            {"value": "DE"},
+            {"value": "GH"},
+            {"value": "GI"},
+            {"value": "GR"},
+            {"value": "GL"},
+            {"value": "GD"},
+            {"value": "GP"},
+            {"value": "GU"},
+            {"value": "GT"},
+            {"value": "GG"},
+            {"value": "GN"},
+            {"value": "GW"},
+            {"value": "GY"},
+            {"value": "HT"},
+            {"value": "HM"},
+            {"value": "VA"},
+            {"value": "HN"},
+            {"value": "HK"},
+            {"value": "HU"},
+            {"value": "IS"},
+            {"value": "IN"},
+            {"value": "ID"},
+            {"value": "IR"},
+            {"value": "IQ"},
+            {"value": "IE"},
+            {"value": "IM"},
+            {"value": "IL"},
+            {"value": "IT"},
+            {"value": "JM"},
+            {"value": "JP"},
+            {"value": "JE"},
+            {"value": "JO"},
+            {"value": "KZ"},
+            {"value": "KE"},
+            {"value": "KI"},
+            {"value": "KP"},
+            {"value": "KR"},
+            {"value": "KW"},
+            {"value": "KG"},
+            {"value": "LA"},
+            {"value": "LV"},
+            {"value": "LB"},
+            {"value": "LS"},
+            {"value": "LR"},
+            {"value": "LY"},
+            {"value": "LI"},
+            {"value": "LT"},
+            {"value": "LU"},
+            {"value": "MO"},
+            {"value": "MK"},
+            {"value": "MG"},
+            {"value": "MW"},
+            {"value": "MY"},
+            {"value": "MV"},
+            {"value": "ML"},
+            {"value": "MT"},
+            {"value": "MH"},
+            {"value": "MQ"},
+            {"value": "MR"},
+            {"value": "MU"},
+            {"value": "YT"},
+            {"value": "MX"},
+            {"value": "FM"},
+            {"value": "MD"},
+            {"value": "MC"},
+            {"value": "MN"},
+            {"value": "ME"},
+            {"value": "MS"},
+            {"value": "MA"},
+            {"value": "MZ"},
+            {"value": "MM"},
+            {"value": "NA"},
+            {"value": "NR"},
+            {"value": "NP"},
+            {"value": "NL"},
+            {"value": "NC"},
+            {"value": "NZ"},
+            {"value": "NI"},
+            {"value": "NE"},
+            {"value": "NG"},
+            {"value": "NU"},
+            {"value": "NF"},
+            {"value": "MP"},
+            {"value": "NO"},
+            {"value": "OM"},
+            {"value": "PK"},
+            {"value": "PW"},
+            {"value": "PS"},
+            {"value": "PA"},
+            {"value": "PG"},
+            {"value": "PY"},
+            {"value": "PE"},
+            {"value": "PH"},
+            {"value": "PN"},
+            {"value": "PL"},
+            {"value": "PT"},
+            {"value": "PR"},
+            {"value": "QA"},
+            {"value": "RE"},
+            {"value": "RO"},
+            {"value": "RU"},
+            {"value": "RW"},
+            {"value": "BL"},
+            {"value": "SH"},
+            {"value": "KN"},
+            {"value": "LC"},
+            {"value": "MF"},
+            {"value": "PM"},
+            {"value": "VC"},
+            {"value": "WS"},
+            {"value": "SM"},
+            {"value": "ST"},
+            {"value": "SA"},
+            {"value": "SN"},
+            {"value": "RS"},
+            {"value": "SC"},
+            {"value": "SL"},
+            {"value": "SG"},
+            {"value": "SX"},
+            {"value": "SK"},
+            {"value": "SI"},
+            {"value": "SB"},
+            {"value": "SO"},
+            {"value": "ZA"},
+            {"value": "GS"},
+            {"value": "ES"},
+            {"value": "LK"},
+            {"value": "SD"},
+            {"value": "SR"},
+            {"value": "SJ"},
+            {"value": "SZ"},
+            {"value": "SE"},
+            {"value": "CH"},
+            {"value": "SY"},
+            {"value": "TW"},
+            {"value": "TJ"},
+            {"value": "TZ"},
+            {"value": "TH"},
+            {"value": "TL"},
+            {"value": "TG"},
+            {"value": "TK"},
+            {"value": "TO"},
+            {"value": "TT"},
+            {"value": "TN"},
+            {"value": "TR"},
+            {"value": "TM"},
+            {"value": "TC"},
+            {"value": "TV"},
+            {"value": "UG"},
+            {"value": "UA"},
+            {"value": "AE"},
+            {"value": "GB"},
+            {"value": "US"},
+            {"value": "UM"},
+            {"value": "UY"},
+            {"value": "UZ"},
+            {"value": "VU"},
+            {"value": "VE"},
+            {"value": "VN"},
+            {"value": "VG"},
+            {"value": "VI"},
+            {"value": "WF"},
+            {"value": "EH"},
+            {"value": "XI"},
+            {"value": "YE"},
+            {"value": "ZM"},
+            {"value": "ZW"},
+            {"value": "SS"}
+          ],
+          "base": "xsd:string"
+        },
+        "name": "isoCountryT"
+      }
+    ],
+    "xsd:element": {
+      "name": "incident",
+      "xsd:complexType": {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "admin_info",
+            "maxOccurs": 1,
+            "type": "admin_infoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "device_info",
+            "maxOccurs": 1,
+            "type": "device_infoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "incident_info",
+            "maxOccurs": 1,
+            "type": "incident_infoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfr_invest",
+            "maxOccurs": 1,
+            "type": "mfrInvestigationT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "other_reporting_info",
+            "maxOccurs": 1,
+            "type": "other_reporting_infoT"
+          }
+        ]},
+        "xsd:attribute": [
+          {
+            "name": "version",
+            "type": "string50T"
+          },
+          {
+            "use": "required",
+            "name": "sCreateTimeStamp",
+            "type": "xsd:dateTime"
+          },
+          {
+            "use": "required",
+            "name": "sFormLanguage",
+            "type": "isoLanguageT"
+          }
+        ]
+      }
+    },
+    "xsd:complexType": [
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 1,
+            "name": "formVersion",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ncaName",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ncaEudamedNum",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ncaReportNo",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "refNumEudamed",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reportDate",
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "adverseEventDateFrom",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "adverseEventDateTo",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrAwarenessDate",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrAwarenessReportDate",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reportType",
+            "maxOccurs": 1,
+            "type": "reportTypeT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reportNextDate",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eventClassification",
+            "maxOccurs": 1,
+            "type": "eventClassificationT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "contact_info",
+            "maxOccurs": 1,
+            "type": "contact_infoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrRef",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ncaRefMultiDev",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ncaRefMultiDevLI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eudamedRefMultiDev",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eudamedRefMultiDevLI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrRefMultiDev",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrRefMultiDevLI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ncaRefFSCA",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ncaRefFSCALI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eudamedRefFSCA",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eudamedRefFSCALI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrRefFSCA",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrRefFSCALI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "psrId",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "psrIdLI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "pmcfpmpfQuestion",
+            "maxOccurs": 1,
+            "type": "yesNoEmptyT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "pmcfpmpfId",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "pmcfpmpfIdLI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          }
+        ]},
+        "name": "admin_infoT"
+      },
+      {
+        "xsd:choice": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "reporterMfr",
+            "maxOccurs": 1,
+            "type": "reporterMfrT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterAR",
+            "maxOccurs": 1,
+            "type": "reporterART"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOther",
+            "maxOccurs": 1,
+            "type": "reporterOtherT"
+          }
+        ]},
+        "name": "contact_infoT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "statusReporter",
+            "maxOccurs": 1,
+            "type": "statusReporterMfrT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterDetails",
+            "maxOccurs": 1,
+            "type": "reporterDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrDetails",
+            "maxOccurs": 1,
+            "type": "mfrDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "arDetails",
+            "maxOccurs": 1,
+            "type": "authRepDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOtherText",
+            "maxOccurs": 1,
+            "type": "string50T"
+          }
+        ]},
+        "name": "reporterMfrT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "statusReporter",
+            "maxOccurs": 1,
+            "type": "statusReporterAuthRepT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterDetails",
+            "maxOccurs": 1,
+            "type": "reporterDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrDetails",
+            "maxOccurs": 1,
+            "type": "mfrDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "arDetails",
+            "maxOccurs": 1,
+            "type": "authRepDetailsT"
+          }
+        ]},
+        "name": "reporterART"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "statusReporter",
+            "maxOccurs": 1,
+            "type": "statusReporterOtherT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterDetails",
+            "maxOccurs": 1,
+            "type": "reporterDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrDetails",
+            "maxOccurs": 1,
+            "type": "mfrDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "arDetails",
+            "maxOccurs": 1,
+            "type": "authRepDetailsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOtherText",
+            "maxOccurs": 1,
+            "type": "string50T"
+          }
+        ]},
+        "name": "reporterOtherT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgName",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterContactPersonFirstName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterContactPersonSecondName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgAddress",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgStreet",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgStreetNum",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgCity",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgCountry",
+            "maxOccurs": 1,
+            "type": "isoCountryT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgPOBox",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgPostcode",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgPhone",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "reporterOrgEmailAddress",
+            "maxOccurs": 1,
+            "type": "string255T"
+          }
+        ]},
+        "name": "reporterDetailsT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "mfrName",
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrSRN",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrContactPersonFirstName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrContactPersonSecondName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrAddress",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrOrgStreet",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrOrgStreetNum",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrCity",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrCountry",
+            "maxOccurs": 1,
+            "type": "isoCountryT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrOrgPOBox",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrPostcode",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrPhone",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "mfrEmailAddress",
+            "maxOccurs": 1,
+            "type": "string255T"
+          }
+        ]},
+        "name": "mfrDetailsT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "ARName",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARSRN",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARContactPersonFirstName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARContactPersonSecondName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARAddress",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARStreet",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARStreetNum",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARCity",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARCountry",
+            "maxOccurs": 1,
+            "type": "isoCountryT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARPOBox",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARPostCode",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ARPhone",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "AREmailAddress",
+            "maxOccurs": 1,
+            "type": "string255T"
+          }
+        ]},
+        "name": "authRepDetailsT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "udiDI",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "udiDI_Entity",
+            "maxOccurs": 1,
+            "type": "udiEntityT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "udiPI",
+            "maxOccurs": 1,
+            "type": "string80T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "udiDIBasic",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "Basic_Entity",
+            "maxOccurs": 1,
+            "type": "udiEntityT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "udiDIUnitUse",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "UnitofUse_Entity",
+            "maxOccurs": 1,
+            "type": "udiEntityT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "nomenclatureSystem",
+            "maxOccurs": 1,
+            "type": "nomenclatureSystemT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "nomenclatureSystemOther",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "nomenclatureCode",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "brandName",
+            "maxOccurs": 1,
+            "type": "string300T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceDescription",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceNomenclature",
+            "maxOccurs": 1,
+            "type": "string300T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "modelNum",
+            "maxOccurs": 1,
+            "type": "string300T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "catalogNum",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "serialNum",
+            "maxOccurs": 1,
+            "type": "string1000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "batchNum",
+            "maxOccurs": 1,
+            "type": "string1000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceSoftwareVer",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceFirmwareVer",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceMfrDate",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceExpiryDate",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ImplantedDateFrom",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ImplantedDateTo",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ExplantedDateFrom",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "ExplantedDateTo",
+            "maxOccurs": 1,
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "implantDuration",
+            "maxOccurs": 1,
+            "type": "optDurationT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "implantFacilityName",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "explantFacilityName",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "nbIdNum",
+            "maxOccurs": 1,
+            "type": "nbIdNumT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "nbCertNum",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "nbIdNum2",
+            "maxOccurs": 1,
+            "type": "nbIdNumT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "nbCertNum2",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceMarketDateType",
+            "maxOccurs": 1,
+            "type": "marketDateTypeT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceMarketDate",
+            "maxOccurs": 1,
+            "type": "optShortStructDateT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "AppLegislationUnknown",
+            "maxOccurs": 1,
+            "type": "AppLegislationUnknownT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceClass",
+            "maxOccurs": 1,
+            "type": "deviceClassT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceClassMDD",
+            "maxOccurs": 1,
+            "type": "deviceClassMDDT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceClassIVDD",
+            "maxOccurs": 1,
+            "type": "deviceClassIVDDT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceClassMDR",
+            "maxOccurs": 1,
+            "type": "deviceClassMDRT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceClassMDRType",
+            "maxOccurs": 1,
+            "type": "deviceClassMDRTypeT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceClassIVDR",
+            "maxOccurs": 1,
+            "type": "deviceClassIVDRT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceClassIVDRType",
+            "maxOccurs": 1,
+            "type": "deviceClassIVDRTypeT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "DevicePlacedMarket",
+            "maxOccurs": 1,
+            "type": "yesNoEmptyT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "DeviceFulfill",
+            "maxOccurs": 1,
+            "type": "yesNoEmptyT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "CompetentAuthName",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "RelevantName",
+            "maxOccurs": 1,
+            "type": "string300T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "distribution",
+            "maxOccurs": 1,
+            "type": "distributionT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceAccessories",
+            "maxOccurs": 1,
+            "type": "string2000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceAssociated",
+            "maxOccurs": 1,
+            "type": "string2000T"
+          }
+        ]},
+        "name": "device_infoT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "clinical_event_info",
+            "maxOccurs": 1,
+            "type": "clinical_event_infoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "patient_info",
+            "maxOccurs": 1,
+            "type": "patient_infoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "initial_reporter_info",
+            "maxOccurs": 1,
+            "type": "healthcare_facility_infoT"
+          }
+        ]},
+        "name": "incident_infoT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "eventDescription",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfCodeChoice1",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfCodeChoice2",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfCodeChoice3",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfCodeChoice4",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfCodeChoice5",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfCodeChoice6",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfCodeMissing",
+            "maxOccurs": 1,
+            "type": "string300T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "numPatientsInvolved",
+            "maxOccurs": 1,
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "currentDeviceLocation",
+            "maxOccurs": 1,
+            "type": "currentDeviceLocationT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "currentDeviceLocationOtherText",
+            "maxOccurs": 1,
+            "type": "string300T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceOperatorAtEvent",
+            "maxOccurs": 1,
+            "type": "deviceOperatorAtEventT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceOperatorAtEventOther",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceUsage",
+            "maxOccurs": 1,
+            "type": "deviceUsageT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "deviceUsageOther",
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "patientRemedialAction",
+            "maxOccurs": 1,
+            "type": "string2000T"
+          }
+        ]},
+        "name": "clinical_event_infoT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "imdrfClinicalCodeChoice1",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfClinicalCodeChoice2",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfClinicalCodeChoice3",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfClinicalCodeChoice4",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfClinicalCodeChoice5",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfClinicalCodeChoice6",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfHealthCodeChoice1",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfHealthCodeChoice2",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfHealthCodeChoice3",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfHealthCodeChoice4",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfHealthCodeChoice5",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfHealthCodeChoice6",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfMissingCodeHealthEffect",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "patientAgeAtEvent",
+            "maxOccurs": 1,
+            "type": "optDurationT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "Gender",
+            "maxOccurs": 1,
+            "type": "GenderT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "massKG",
+            "maxOccurs": 1,
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "heightCM",
+            "maxOccurs": 1,
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "patientPriorMedication",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          }
+        ]},
+        "name": "patient_infoT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "initialReporterRole",
+            "maxOccurs": 1,
+            "type": "initialReporterRoleT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "initialReporterRoleOther",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityName",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityRepNum",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityContactPersonFirstName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityContactPersonSecondName",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityAddress",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityPhone",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityEmail",
+            "maxOccurs": 1,
+            "type": "string255T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityCountry",
+            "maxOccurs": 1,
+            "type": "isoCountryT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityCountryOther",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityStreet",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityStreetNum",
+            "maxOccurs": 1,
+            "type": "string200T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityCity",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityPOBox",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "healthcareFacilityPostcode",
+            "maxOccurs": 1,
+            "type": "string50T"
+          }
+        ]},
+        "name": "healthcare_facility_infoT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "manufacturersPrelimAnalysis",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "suspicionRelationShip",
+            "maxOccurs": 1,
+            "type": "yesNoEmptyT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "manufacturersInitialCorrecAction",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "furtherInvestigations",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "rootCauses",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "manufacturersWhyNotReportable",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "rootCauseConfirmed",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "relationShipIncidentSubstance",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "riskAssReviewed",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "rationaleNoReview",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "riskAssAdequate",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "riskAssResults",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice1",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice2",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice3",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice4",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice5",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice6",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice7",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfTypeInvestigationCodeChoice8",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationFindingsCodeChoice1",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationFindingsCodeChoice2",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationFindingsCodeChoice3",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationFindingsCodeChoice4",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationFindingsCodeChoice5",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationFindingsCodeChoice6",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationConclusionCodeChoice1",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationConclusionCodeChoice2",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationConclusionCodeChoice3",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationConclusionCodeChoice4",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationConclusionCodeChoice5",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfInvestigationConclusionCodeChoice6",
+            "maxOccurs": 1,
+            "type": "codeStringT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfMissingCodeCauseInvestigation",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfComponentCodeChoice1",
+            "maxOccurs": 1,
+            "type": "codeString8charT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfComponentCodeChoice2",
+            "maxOccurs": 1,
+            "type": "codeString8charT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfComponentCodeChoice3",
+            "maxOccurs": 1,
+            "type": "codeString8charT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfComponentCodeChoice4",
+            "maxOccurs": 1,
+            "type": "codeString8charT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfComponentCodeChoice5",
+            "maxOccurs": 1,
+            "type": "codeString8charT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfComponentCodeChoice6",
+            "maxOccurs": 1,
+            "type": "codeString8charT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "imdrfMissingComponentCodes",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "correctiveAction",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "correctiveActionSchedule",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "manufacturersFinalComments",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarIncidents",
+            "maxOccurs": 1,
+            "type": "similarIncidentsT"
+          }
+        ]},
+        "name": "mfrInvestigationT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "similarIncImdrfCodesAnnexA",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "similarIncImdrfCodesAnnexC",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "similarIncOtherReportingCodes",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarIncOtherReportingCodesText",
+            "maxOccurs": 1,
+            "type": "string2000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarIncMdCodesChoice1Code",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarIncMdCodesChoice1Term",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarIncRootCouseCodesChoice1Code",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarIncRootCouseCodesChoice1Term",
+            "maxOccurs": 1,
+            "type": "string50T"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "similarIncOtherInHouseCodes",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarIncOtherInHouseCodesText",
+            "maxOccurs": 1,
+            "type": "string2000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarVariant",
+            "maxOccurs": 1,
+            "type": "similarVariantT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "similarVariantDetails",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "numberBasedOn",
+            "maxOccurs": 1,
+            "type": "numberBasedOnT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "numberBasedOnOther",
+            "maxOccurs": 1,
+            "type": "string300T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "timePeriodN",
+            "maxOccurs": 1,
+            "type": "numSimilarIncidentsDevicesT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "timePeriodN-1",
+            "maxOccurs": 1,
+            "type": "numSimilarIncidentsDevicesT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "timePeriodN-2",
+            "maxOccurs": 1,
+            "type": "numSimilarIncidentsDevicesT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "timePeriodN-3",
+            "maxOccurs": 1,
+            "type": "numSimilarIncidentsDevicesT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "howWereDetermined",
+            "maxOccurs": 1,
+            "type": "string2000T"
+          }
+        ]},
+        "name": "similarIncidentsT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": {
+          "minOccurs": 0,
+          "name": "AdditionalComments",
+          "maxOccurs": 1,
+          "type": "string4000T"
+        }},
+        "name": "other_reporting_infoT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "implantable",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "activedevice",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "intendedtoadminister",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "sterileconditions",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "measuringfunction",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "reusable",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "software",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "systems",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "procedurepacks",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "custommade",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "non-medical",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          }
+        ]},
+        "name": "deviceClassMDRTypeT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "selftesting",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "nearpatienttesting",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "professionaltesting",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "companiondiagnostics",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "reagent",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "software",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "instrument",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          },
+          {
+            "default": "No",
+            "minOccurs": 0,
+            "name": "sterileconditions",
+            "maxOccurs": 1,
+            "type": "yesNoT"
+          }
+        ]},
+        "name": "deviceClassIVDRTypeT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "startDate",
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "endDate",
+            "type": "xsd:date"
+          },
+          {
+            "minOccurs": 0,
+            "name": "countrySimInc",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eeaChTrSimInc",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "worldSimInc",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "countrySimDev",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eeaChTrSimDev",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "worldSimDev",
+            "type": "xsd:integer"
+          }
+        ]},
+        "name": "numSimilarIncidentsDevicesT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "countryIncident",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "eeaChTr",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "world",
+            "type": "xsd:integer"
+          }
+        ]},
+        "name": "numberIncidentsDevicesT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "numYears",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "numMonths",
+            "type": "xsd:integer"
+          },
+          {
+            "minOccurs": 0,
+            "name": "numDays",
+            "type": "xsd:integer"
+          }
+        ]},
+        "name": "optDurationT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "year",
+            "type": "validYearsT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "month",
+            "type": "validMonthsT"
+          }
+        ]},
+        "name": "optShortStructDateT"
+      },
+      {
+        "xsd:sequence": {"xsd:element": [
+          {
+            "minOccurs": 0,
+            "name": "distributionEEA",
+            "maxOccurs": "unbounded",
+            "type": "distributionEEAT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "distribution_all",
+            "maxOccurs": 1,
+            "type": "distribution_allT"
+          },
+          {
+            "minOccurs": 0,
+            "name": "otherCountries",
+            "maxOccurs": 1,
+            "type": "string4000T"
+          },
+          {
+            "minOccurs": 0,
+            "name": "otherCountriesLI",
+            "maxOccurs": "unbounded",
+            "type": "string50T"
+          }
+        ]},
+        "name": "distributionT"
+      }
+    ]
+  },
+  "xmlns:xdp": "http://ns.adobe.com/xdp/",
+  "connectionSet": {
+    "xmlns": "http://www.xfa.org/schema/xfa-connection-set/2.8/",
+    "xsdConnection": {
+      "rootElement": "incident",
+      "name": "DataConnection",
+      "uri": ".\\incident-PDFgeneric-v7.3.xsd",
+      "dataDescription": "incident"
+    }
+  },
+  "uuid": "78762e84-46b7-4d77-8fdc-36b162544077",
+  "config": {
+    "acrobat": {
+      "common": {
+        "template": {
+          "relevant": "",
+          "uri": "",
+          "base": "C:\\Users\\lhoiran\\AppData\\Local\\Temp\\1\\"
+        },
+        "versionControl": {"sourceBelow": "maintain"},
+        "data": {
+          "xsl": {"uri": ".\\incident_in_7.3.xsl"},
+          "outputXSL": {"uri": ".\\incident_out_7.3.xsl"}
+        },
+        "validationMessaging": "allMessagesTogether"
+      },
+      "acrobat7": {"dynamicRender": "required"},
+      "autoSave": "",
+      "validate": "preSubmit"
+    },
+    "xmlns": "http://www.xfa.org/schema/xci/3.0/",
+    "agent": {
+      "pdf": {"fontInfo": ""},
+      "name": "designer",
+      "destination": "pdf"
+    },
+    "psMap": {"font": [
+      {
+        "psName": "Calibri-Bold",
+        "posture": "normal",
+        "weight": "bold",
+        "typeface": "Calibri"
+      },
+      {
+        "psName": "Calibri",
+        "posture": "normal",
+        "weight": "normal",
+        "typeface": "Calibri"
+      },
+      {
+        "psName": "Calibri-Italic",
+        "posture": "italic",
+        "weight": "normal",
+        "typeface": "Calibri"
+      },
+      {
+        "psName": "Calibri-BoldItalic",
+        "posture": "italic",
+        "weight": "bold",
+        "typeface": "Calibri"
+      }
+    ]},
+    "present": {
+      "output": {
+        "to": "uri",
+        "uri": "C:\\Users\\lhoiran\\AppData\\Local\\Temp\\1\\_231k4547s1be7c7t1i.tmp"
+      },
+      "cache": {"macroCache": ""},
+      "pdf": {
+        "adobeExtensionLevel": 8,
+        "creator": "Designer 6.4",
+        "renderPolicy": "client",
+        "interactive": 1,
+        "scriptModel": "XFA",
+        "version": 1.7,
+        "tagged": 0,
+        "silentPrint": {
+          "addSilentPrint": 0,
+          "printerName": ""
+        },
+        "linearized": 1,
+        "producer": "Designer 6.4",
+        "fontInfo": {"embed": 0},
+        "compression": {
+          "compressObjectStream": 1,
+          "level": 6,
+          "compressLogicalStructure": 1
+        },
+        "viewerPreferences": {
+          "ADBE_JSDebugger": "delegate",
+          "printScaling": "appDefault",
+          "duplexOption": "simplex",
+          "enforce": "",
+          "addViewerPreferences": 0,
+          "numberOfCopies": 0,
+          "ADBE_JSConsole": "delegate",
+          "pickTrayByPDFSize": 0
+        }
+      },
+      "common": {
+        "template": {"base": "C:\\Users\\lhoiran\\AppData\\Local\\Temp\\1\\"},
+        "data": {
+          "xsl": {"uri": ".\\incident_in_7.3.xsl"},
+          "outputXSL": {"uri": ".\\incident_out_7.3.xsl"}
+        },
+        "log": {
+          "mode": "overwrite",
+          "to": "memory"
+        }
+      },
+      "xdp": {"packets": "*"},
+      "destination": "pdf",
+      "script": {"runScripts": "server"}
+    }
+  },
+  "x:xmpmeta": {
+    "x:xmptk": "Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ",
+    "xmlns:x": "adobe:ns:meta/",
+    "rdf:RDF": {
+      "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdf:Description": {
+        "xmp:MetadataDate": "2025-04-30T08:07:40Z",
+        "xmp:CreatorTool": "Designer 6.4",
+        "dc:description": {"rdf:Alt": {"rdf:li": {
+          "xml:lang": "x-default",
+          "content": "Ver 7.3.1: 30-04-2025: SB-10407: S2.2.b,4.3.1.a & 4.3.2.b mandatory fields adjust.\r\nVer 7.3.1: 09-04-2025: SB-10371: S4.3.1.a - mandatory fields adjust.\r\nVer 7.3.1: 03-04-2025: SB-10371: Check XML-XSD\r\nVer 7.3.1: 02-04-2025: SB-10332: Final\r\nVer 7.3.1: 19-03-2025: SB-10332: Correction of bugs of MEDTECH\r\nVer 7.3.1: 13-03-2025: SB-10332 feedback Medtech \r\nVer 7.3.1: 22-01-2025 SB-10225 Feedback MEDTECH : Change attribute for the key \"massKG\" & \"heightCM\" to \"xsd:integer\" for all XSD files\r\nVer 7.3.1: 17-01-2025 SB-10225 Feedback MEDTECH : Resolving issue on signature + section 1.3.1.f unselect radio button + section 4.2.d field mandatory correction\r\nVer 7.3.1: 20 Nov 24 Add default value to sCreateTimeStamp and sFormLanguage\r\nVer 7.3.1: Full restore completed\r\nVer 7.3.1: Red border issue on section 2.3.p\r\nVer 7.3.1: Update the out.xsl for manufacturer issue\r\nVer 7.3.1: Updated the code copy/paste section 2.3.p\r\nVer 7.3.1: Restoring codes due to crash of application (SB-9903)\r\nVer 7.3.1: 01-03-2024 - SB-9481 Fix max length to 4000 Characters\r\nVer 7.3.1: Add some fields, labels and business rules (SB-9263)\r\nVer 7.3.0: add drop-down list, change title (SB-7677)"
+        }}},
+        "pdf:Producer": "Designer 6.4",
+        "desc:version": {
+          "rdf:parseType": "Resource",
+          "rdf:value": "7.3.1",
+          "desc:ref": "/template/subform[1]"
+        },
+        "xmlns:xmp": "http://ns.adobe.com/xap/1.0/",
+        "dc:creator": {"rdf:Seq": {"rdf:li": "EU Commission - DG SANTE"}},
+        "dc:format": "application/pdf",
+        "xmlns:pdf": "http://ns.adobe.com/pdf/1.3/",
+        "xmpMM:DocumentID": "uuid:78762e84-46b7-4d77-8fdc-36b162544077",
+        "rdf:about": "",
+        "xmlns:xmpMM": "http://ns.adobe.com/xap/1.0/mm/",
+        "xmlns:desc": "http://ns.adobe.com/xfa/promoted-desc/",
+        "xmlns:pdfuaid": "http://www.aiim.org/pdfua/ns/id/",
+        "dc:date": {"rdf:Seq": {"rdf:li": [
+          {
+            "dc:element-refinement": "dc:created",
+            "rdf:parseType": "Resource",
+            "rdf:value": "30/06/2021"
+          },
+          {
+            "dc:element-refinement": "dc:issued",
+            "rdf:parseType": "Resource",
+            "rdf:value": "09/04/2025"
+          }
+        ]}},
+        "dc:title": {"rdf:Alt": {"rdf:li": {
+          "xml:lang": "x-default",
+          "content": "Manufacturer incident report"
+        }}},
+        "pdfuaid:part": 1,
+        "desc:contact": {
+          "rdf:parseType": "Resource",
+          "rdf:value": "SANTE BI",
+          "desc:ref": "/template/subform[1]"
+        },
+        "xmpMM:subject": {"rdf:Seq": {"rdf:li": 8}},
+        "xmpMM:InstanceID": "uuid:961007f2-d896-413f-954d-50d6bb97142a",
+        "xmlns:dc": "http://purl.org/dc/elements/1.1/"
+      }
+    }
+  }
+}}
